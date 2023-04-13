@@ -1,0 +1,10 @@
+.site-header {
+    background: $header-color;
+    a {
+        color: $font-color;
+        font-weight: bold;
+        &:hover {
+            color: #86855d;
+        }
+    }
+}

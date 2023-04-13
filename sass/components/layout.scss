@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: $font-color;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+p:last-child {
+  margin-bottom: 0;  
+}
+
+* {
+    box-sizing: border-box;
+}
+a {
+    display: inline-block;
+    padding: 5px;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+.bold-text {
+    font-weight: bold;
+}
+.white-bg {
+    background: #ffffff;
+}
+.lightgray-bg {
+    background: #f8f8f8;
+}
+.lightpink-bg {
+    background: #f6f0e4;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.d-block {
+    display: block;
+}
+.d-inline-blok {
+    display: inline-block;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.flex {
+    display: flex;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.align-item-center {
+    align-items: center;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 7px 40px;
+    background: #726f53;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.opacity07 {
+    opacity: .7;
+}
+input {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 7px 40px;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background: #222222;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+
+}
